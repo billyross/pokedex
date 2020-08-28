@@ -1,0 +1,16 @@
+.pokemonList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.pokemonListItem {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  margin: 12px 24px;
+}
+
+.pokemonListItem:hover {
+  color: #e63946;
+}

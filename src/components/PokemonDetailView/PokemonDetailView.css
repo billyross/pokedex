@@ -1,0 +1,20 @@
+.name {
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.detailsContainer {
+  margin: 24px;
+}
+
+.pokemonDetailViewPanel {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.artwork {
+  width: 300px;
+  height: 300px;
+  margin-left: 69px;
+}
